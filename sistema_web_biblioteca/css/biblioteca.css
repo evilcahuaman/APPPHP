@@ -1,0 +1,160 @@
+/* Estilos para la página de inicio del sistema de biblioteca */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.slider {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.destacados {
+    margin-top: 40px;
+}
+
+.destacados h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.destacados ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.destacados li {
+    flex: 1 1 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.destacados img {
+    max-width: 100%;
+}
+
+.destacados h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.destacados p {
+    margin: 0;
+}
+
+.busqueda {
+    margin-top: 40px;
+}
+
+.busqueda h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.busqueda label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.busqueda input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.busqueda input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.busqueda input[type="submit"]:hover {
+    background-color: #005ea6;
+}
+
+footer {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Definir estilos para el mensaje de error */
+.error-msg {
+    color: red;
+    margin-bottom: 10px;
+}
